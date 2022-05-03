@@ -13,15 +13,15 @@ defineProps({
     <h1>
       Web Engineering Projekt
     </h1>
-    <h3>
-      Klausurarbeit
-    </h3>
     <h2>
-      von
+      Klausurarbeit
     </h2>
     <h3>
-      Niklas Elsässer
+      von
     </h3>
+    <h2>
+      Niklas Elsässer
+    </h2>
   </div>
 </template>
 
@@ -36,6 +36,10 @@ h3 {
   font-size: 1.2rem;
 }
 
+.greetings h2{
+  font-weight: bold;
+  text-align: center;
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;
