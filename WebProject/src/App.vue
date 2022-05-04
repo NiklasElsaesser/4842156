@@ -32,9 +32,14 @@ header {
   line-height: 1.5;
 }
 
+#logo{
+  place-items: right;
+}
+
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  place-items: right;
 }
 
 /* a,
