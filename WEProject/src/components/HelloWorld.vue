@@ -9,12 +9,19 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <!-- <h1 class="green">{{ msg }}</h1> -->
+    <h1>
+      Web Engineering Projekt
+    </h1>
+    <h2>
+      Klausurarbeit
+    </h2>
     <h3>
-      You’ve successfully created a project with
-      <a target="_blank" href="https://vitejs.dev/">Vite</a> +
-      <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
+      von
     </h3>
+    <h2>
+      Niklas Elsässer
+    </h2>
   </div>
 </template>
 
@@ -29,6 +36,10 @@ h3 {
   font-size: 1.2rem;
 }
 
+.greetings h2{
+  font-weight: bold;
+  text-align: center;
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;

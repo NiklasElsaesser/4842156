@@ -8,14 +8,38 @@ const router = createRouter({
       path: "/",
       name: "home",
       component: HomeView,
-    },
-    {
-      path: "/about",
-      name: "about",
+    }
+    ,{
+      path: "/Aktien",
+      name: "Aktien",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import("../views/AboutView.vue"),
+      component: () => import("../views/AktienView.vue"),
+    }
+    ,{
+      path: "/Wetter",
+      name: "Wetter",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/WetterView.vue"),
+    }
+    ,{
+      path: "/GC",
+      name: "Group Chat",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/GCView.vue"),
+    },
+    {
+      path: "/Instagram",
+      name: "Instagram",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/InstagramView.vue"),
     },
   ],
 });
