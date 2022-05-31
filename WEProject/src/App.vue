@@ -1,9 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
+//import HelloWorld from "@/components/HelloWorld.vue";
 </script>
 
 <template>
+<!--
+
   <header>
     <img
       alt="Vue logo"
@@ -18,6 +20,8 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
     </div>
   </header>
+-->
+  
 
   <RouterView />
 </template>
