@@ -51,4 +51,8 @@ h3 {
     text-align: left;
   }
 }
+body {
+    display: flex;
+    place-items: center;
+  }
 </style>

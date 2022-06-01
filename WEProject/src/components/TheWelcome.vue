@@ -6,21 +6,15 @@ import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
 
-import HelloWorld from "@/components/HelloWorld.vue";
+import Cover from "@/components/Cover.vue";
 </script>
 
 <template>
 <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <Cover msg="" />
 
     </div>
   </header>
@@ -71,3 +65,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
     </template>
   </WelcomeItem>
 </template>
+
+<style scoped>
+header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+  }
+</style>

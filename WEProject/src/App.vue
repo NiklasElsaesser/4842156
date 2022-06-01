@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
     <router-link to="/">
       <img src="./assets/Images/AD2018_DHBW-Stuttgart.jpg"
       width="125"
-      height="73"
+      height="75"
       />
     </router-link>
   </header>
@@ -29,79 +29,38 @@ import { RouterLink, RouterView } from "vue-router";
   padding: 2rem;
 
   font-weight: normal;
-}
 
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+  background-color: rgb(255, 255, 255);
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: rgb(0, 0, 0);
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
 @media (min-width: 1024px) {
-  body {
+  /*body {
     display: flex;
     place-items: center;
   }
+  */
 
   #app {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+    background-color: lightgrey;
   }
 
   header {
     display: flex;
-    place-items: center;
+    place-items: left;
     padding-right: calc(var(--section-gap) / 2);
+    background-color: lightblue;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+  
 
   .logo {
     margin: 0 2rem 0 0;
