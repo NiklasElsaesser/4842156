@@ -21,15 +21,6 @@ import Cover from "@/components/Cover.vue";
 
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
-    </template>
-    <template #heading>
-      <RouterLink  to="/Aktien" >Aktien</RouterLink>
-    </template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
       <ToolingIcon />
     </template>
     <template #heading>
@@ -45,25 +36,6 @@ import Cover from "@/components/Cover.vue";
       <RouterLink  to="/GC" >Group Chat</RouterLink>
     </template>
   </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
-    
-    <template #heading>
-      <RouterLink  to="/Instagram" >Instagram</RouterLink>
-    </template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
-    <template #heading>
-      <RouterLink  to="/Spotify" >Spotify</RouterLink>
-    </template>
-  </WelcomeItem>
 </template>
 
 <style scoped>
@@ -72,5 +44,6 @@ header .wrapper {
     place-items: flex-start;
     flex-wrap: wrap;
     background-color: lightcoral;
+    padding-left: 30%;
   }
 </style>

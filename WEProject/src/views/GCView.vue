@@ -1,3 +1,9 @@
+<script>
+
+</script>
+
+
+
 <template>
   <div class="GC">
     <h1>Group Chat</h1>
