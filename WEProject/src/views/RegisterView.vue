@@ -1,6 +1,12 @@
+<script>
+
+</script>
+
+
+
 <template>
-  <div class="Aktien">
-    <h1>Aktien</h1>
+  <div class="GC">
+    <h1>Group Chat</h1>
   </div>
 </template>
 

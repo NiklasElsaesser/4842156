@@ -14,7 +14,6 @@ import { RouterLink, RouterView } from "vue-router";
       />
     </router-link>
   </header>
-
   
 
   <RouterView />
@@ -31,13 +30,6 @@ import { RouterLink, RouterView } from "vue-router";
   font-weight: normal;
 
   background-color: rgb(255, 255, 255);
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  transition: 0.4s;
 }
 
 @media (min-width: 1024px) {
@@ -58,12 +50,6 @@ a,
     place-items: left;
     padding-right: calc(var(--section-gap) / 2);
     background-color: lightblue;
-  }
-
-  
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   nav {
