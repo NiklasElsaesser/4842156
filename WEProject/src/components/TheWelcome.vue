@@ -36,7 +36,18 @@ import Cover from "@/components/Cover.vue";
       <RouterLink  to="/GC" >Group Chat</RouterLink>
     </template>
   </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <CommunityIcon />
+    </template>
+    <template #heading>
+      <RouterLink  to="/Instagram" >Testing</RouterLink>
+    </template>
+  </WelcomeItem>
 </template>
+
+
 
 <style scoped>
 header .wrapper {
