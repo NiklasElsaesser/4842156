@@ -13,7 +13,7 @@ import Cover from "@/components/Cover.vue";
 
     </div>
   </header>
-
+<!--
   <WelcomeItem>
     <template #heading>
       <RouterLink  to="/Wetter" >Wetter</RouterLink>
@@ -31,6 +31,14 @@ import Cover from "@/components/Cover.vue";
       <RouterLink  to="/test" >Testing</RouterLink>
     </template>
   </WelcomeItem>
+
+  <WelcomeItem>
+    <template #heading>
+      <RouterLink  to="/Wetter" >Wetter</RouterLink>
+    </template>
+  </WelcomeItem>
+-->
+  
 </template>
 
 
