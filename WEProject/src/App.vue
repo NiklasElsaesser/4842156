@@ -7,6 +7,39 @@ import { RouterLink, RouterView } from "vue-router";
 
 
   <header>
+
+    <nav class="navbar is-transparent">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="./assets/Images/AD2018_DHBW-Stuttgart.jpg" alt="DHBW-Logo" width="125" height="10">
+    </a>
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/">
+        Home
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-primary" href="/register">
+              <span>Register</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
     <router-link to="/">
       <img src="./assets/Images/AD2018_DHBW-Stuttgart.jpg"
       width="125"

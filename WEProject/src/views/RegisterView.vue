@@ -6,7 +6,7 @@
 
 <template>
   <div class="GC">
-    <h1>Group Chat</h1>
+    <h1>register</h1>
   </div>
 </template>
 
