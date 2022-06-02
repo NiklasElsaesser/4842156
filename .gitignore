@@ -1,32 +1,3 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
-
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 node_modules/vue/compiler-sfc/index.d.ts
 package-lock.json
 package.json
@@ -708,4 +679,3 @@ node_modules/vue-router/dist/vue-router.global.js
 node_modules/vue-router/dist/vue-router.global.prod.js
 node_modules/vue-router/vetur/attributes.json
 node_modules/vue-router/vetur/tags.json
-
