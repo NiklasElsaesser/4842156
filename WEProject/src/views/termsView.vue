@@ -23,4 +23,8 @@
     text-align: center;
     padding-top: 15px;
 }
+
+h1 {
+  font-weight: 500;
+}
 </style>

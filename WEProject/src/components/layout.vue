@@ -37,6 +37,11 @@ export default {
               <span>Register</span>
             </a>
           </p>
+          <div class="control">
+            <router-link to="/login" class="button is-light">
+              Login
+            </router-link>
+          </div>
         </div>
       </div>
     </div>
