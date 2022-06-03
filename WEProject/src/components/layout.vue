@@ -33,7 +33,7 @@ export default {
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <router-link to="/2" class="button is-link">
+            <router-link to="/register" class="button is-link">
               Register
             </router-link>
           </p>
