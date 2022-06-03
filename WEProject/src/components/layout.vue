@@ -33,9 +33,9 @@ export default {
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <a class="button is-primary" href="/register">
-              <span>Register</span>
-            </a>
+            <router-link to="/2" class="button is-link">
+              Register
+            </router-link>
           </p>
           <div class="control">
             <router-link to="/login" class="button is-light">
