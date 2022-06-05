@@ -29,6 +29,17 @@ import TheWelcome from "@/components/TheWelcome.vue";
         </router-link>
       </div>
 
+      <div class="JS2">
+        <router-link to="/js2">
+          <a class="button is-white is-large">
+            <span class="icon">
+              <i class="fas fa-cogs"></i>
+            </span>
+            <span>JS2 Aufgabe</span>
+          </a>
+        </router-link>
+      </div>
+
       <div class="SignOut">
         <router-link to="/">
           <a class="button is-white is-large">

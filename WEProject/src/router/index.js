@@ -36,12 +36,12 @@ const router = createRouter({
       component: () => import("../views/WetterView.vue"),
     }
     ,{
-      path: "/GC",
+      path: "/js2",
       name: "Group Chat",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import("../views/GCView.vue"),
+      component: () => import("../views/JS2View.vue"),
     },
     {
       path: "/test",

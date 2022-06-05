@@ -1,4 +1,7 @@
 <template>
+<div class="notification">
+  Habe das Pop-Up nicht in Vue hinbekommen, die entsprechenden Daten liegen im Ordner Aufgabe 2 und müssen in der "starter"-Umgebung implementiert werden. 
+</div>
 <header id="top" class="pagegridheader flexboxheader">
    <span>DHBW Stuttgart Web Engineering Portal</span>
 </header>
