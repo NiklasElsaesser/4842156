@@ -18,24 +18,13 @@ import TheWelcome from "@/components/TheWelcome.vue";
         </router-link>
       </div>
 
-      <div class="js2">
-        <router-link to="/js2">
-          <a class="button is-white is-large">
-            <span class="icon">
-              <i class="fas fa-user"></i>
-            </span>
-            <span>JS2 Aufgabe</span>
-          </a>
-        </router-link>
-      </div>
-
       <div class="terms">
         <router-link to="/terms">
           <a class="button is-white is-large">
             <span class="icon">
               <i class="fas fa-cogs"></i>
             </span>
-            <span>Bedingungen</span>
+            <span>Disclaimer</span>
           </a>
         </router-link>
       </div>
@@ -55,7 +44,28 @@ import TheWelcome from "@/components/TheWelcome.vue";
 </template>
 
 <style scoped>
-.Home {
+@media (max-width: 600px) {
+  .Home {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    
+  }
+  .Wetter{
+    
+    padding-top: 30px;
+    
+  }
+  .terms{
+    padding-top: 15px;
+  }
+  .SignOut{
+    padding-top: 15px;
+  }
+}
+  @media only screen and (min-width: 600px) {
+    .Home {
     position: absolute;
     left: 42%;
     padding-top: 40px;
@@ -65,12 +75,8 @@ import TheWelcome from "@/components/TheWelcome.vue";
     text-align: left 42%;
   }
   .Wetter{
-    
     padding-top: 30px;
     
-  }
-  .js2{
-    padding-top: 15px;
   }
   .terms{
     
@@ -79,5 +85,75 @@ import TheWelcome from "@/components/TheWelcome.vue";
   .SignOut{
     
     padding-top: 15px;
+  }
+  }
+  @media only screen and (min-width: 768px) {
+    .Home {
+    position: absolute;
+    left: 20%;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .p1{
+    text-align: left 42%;
+  }
+  .Wetter{
+    padding-top: 30px;
+    
+  }
+  .terms{
+    
+    padding-top: 15px;
+  }
+  .SignOut{
+    
+    padding-top: 15px;
+  }
+  }
+  @media only screen and (min-width: 1024px) {
+    .Home {
+    position: absolute;
+    left: 42%;
+    padding-top: 40px;
+    text-align: left;
+  }
+  .p1{
+    text-align: left 42%;
+  }
+  .Wetter{
+    padding-top: 30px;
+    
+  }
+  .terms{
+    
+    padding-top: 15px;
+  }
+  .SignOut{
+    
+    padding-top: 15px;
+  }
+  }
+  @media only screen and (min-width: 1200px) {
+    .Home {
+    position: absolute;
+    left: 42%;
+    padding-top: 40px;
+    text-align: left;
+  }
+  .p1{
+    text-align: left 42%;
+  }
+  .Wetter{
+    padding-top: 30px;
+    
+  }
+  .terms{
+    
+    padding-top: 15px;
+  }
+  .SignOut{
+    
+    padding-top: 15px;
+  }
   }
 </style>

@@ -1,22 +1,12 @@
 <script>
+import axios from'axios'
 export default {
-    data(){
-      return{
-        name: '',
-        email: '',
-        password: '',
-        cpassword: ''
-      }
-    },
-    methods:{
-      register(){
-        this.$store.dispatch('register',{
-          name: this.name,
-          email: this.email,
-          password: this.password
-        })
-      }
+  name: 'regisgter',
+  data() {
+    return {
+
     }
+  }
 }
 </script>
 
@@ -24,13 +14,12 @@ export default {
 
 <template>
   <div class="rg">
-    <form @submit.prevent="register">
     <div style="width: 100%;height: 100%">
     <div class="BulmaRegForm">
       <div class="field">
         <label class="label">Name</label>
         <div class="control has-icons-left">
-            <input class="input" v-model="name" type="text" placeholder="Name input" name="name" value>
+            <input class="input" v-model="name" type="text" placeholder="Name input">
             <span class="icon is-small is-left">
               <i class="fas fa-signature"></i>
             </span>
@@ -40,7 +29,7 @@ export default {
       <div class="field">
         <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input" v-model="email" type="email" placeholder="Email input" name="email" value>
+            <input class="input" v-model="email" type="text" placeholder="Email input">
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
               </span>
@@ -55,7 +44,7 @@ export default {
         <label class="label">Password</label>
           <div class="field">
             <p class="control has-icons-left has-icons-right">
-              <input class="input i" v-model="password" type="password" placeholder="Password" name="password" value>
+              <input class="input i" v-model="password" type="password" placeholder="Password">
                 <span class="icon is-small is-left">
                   <i class="fas fa-lock"></i>
                 </span>
@@ -70,7 +59,7 @@ export default {
         <label class="label">Confim Password</label>
           <div class="field">
             <p class="control has-icons-left has-icons-right">
-              <input class="input" v-model="cpassword" type="password" placeholder="Password" name="cpassword" value>
+              <input class="input" v-model="cpassword" type="password" placeholder="Password">
                 <span class="icon is-small is-left">
                   <i class="fas fa-lock"></i>
                 </span>
@@ -84,8 +73,8 @@ export default {
       <div class="field">
         <label class="label">Birthday</label>
         <div class="control">
-          <div class="select is-danger">
-            <select>
+          <div class="select">
+            <select v-model="birthday">
               <option>Select</option>
               <option>2001</option>
               <option>2000</option>
@@ -109,10 +98,9 @@ export default {
       </div>
 
       <div class="field is-grouped">
-        <div class="control">
-          <router-link to="/2" class="button is-link">
+        <div class="control">´<router-link to="/2" class="button is-link">
             Submit
-          </router-link>
+          </router-link>´
         </div>
         <div class="control">
           <router-link to="/" class="button is-light">
@@ -122,7 +110,6 @@ export default {
       </div>
     </div>
     </div>
-  </form>
   </div>
 </template>
 

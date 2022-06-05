@@ -1,6 +1,4 @@
 <script setup>
-import WelcomeItem from "./WelcomeItem.vue";
-
 import Cover from "@/components/Cover.vue";
 </script>
 
@@ -9,35 +7,10 @@ import Cover from "@/components/Cover.vue";
 
 
     <div class="wrapper">
-      <Cover msg="" />
+      <Cover class="cover" msg="" />
 
     </div>
   </header>
-<!--
-  <WelcomeItem>
-    <template #heading>
-      <RouterLink  to="/Wetter" >Wetter</RouterLink>
-    </template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #heading>
-      <RouterLink  to="/GC" >Group Chat</RouterLink>
-    </template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #heading>
-      <RouterLink  to="/test" >Testing</RouterLink>
-    </template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #heading>
-      <RouterLink  to="/Wetter" >Wetter</RouterLink>
-    </template>
-  </WelcomeItem>
--->
   
 </template>
 
@@ -48,8 +21,13 @@ import Cover from "@/components/Cover.vue";
 header .wrapper {
     display: flex;
     place-items: flex-start;
-    flex-wrap: wrap;
-    background-color: lightcoral;
-    padding-left: 30%;
+    align-content: center;
+    padding-left:10%;
   }
+.cover{
+  margin: auto;
+  padding-top: 15px;
+  width: 50%;
+  text-align: center;
+}
 </style>

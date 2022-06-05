@@ -66,43 +66,6 @@ export default{
 </template>
 
 <style scope>
-/*
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-#weather{
-  background-color: yellow;
-  background-size: cover;
-  background-position: bottom;
-  transition: 00.4s;
-}
-main{
-  min-height: 100vh;
-  padding: 25px;
-  background-color: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.75));
-}
-.search-box{
-  width: 100%;
-  margin-bottom: 30px;
-}
-.search-box .input is-rounded{
-  display: block;
-  width: 100%;
-  padding: 15px;
-
-  color: aliceblue;
-  font-size: 20px;
-
-  appearance: none;
-  border: none;
-  outline: none;
-  background: none;
-
-
-}
-*/
 * {
   margin: 0;
   padding: 0;
@@ -149,7 +112,7 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 .location-box .location {
-  color: #FFF;
+  color: rgb(0, 0, 0);
   font-size: 32px;
   font-weight: 500;
   text-align: center;
@@ -172,16 +135,16 @@ main {
   font-size: 102px;
   font-weight: 900;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
-  background-color:rgba(255, 255, 255, 0.25);
+  background-color:rgba(59, 81, 191, 0.51);
   border-radius: 16px;
   margin: 30px 0px;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
 .weather-box .weather {
-  color: #FFF;
+  color: rgb(185, 184, 184);
   font-size: 48px;
   font-weight: 700;
   font-style: italic;
-  text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+  text-shadow: 3px 6px rgba(190, 189, 189, 0.25);
 }
 </style>

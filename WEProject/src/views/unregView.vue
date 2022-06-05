@@ -57,11 +57,11 @@ export default {
 
 <style scoped>
   
-   @media only screen and (max-width: 600px) {
-    .Login {
+   @media (max-width: 600px) {
+    .LogIn {
       position: relative;
       text-align: center;
-      padding-top: 15px;
+      padding-top: 50px;
     }
     .filler {
       position: relative;
@@ -83,16 +83,15 @@ export default {
     text-align: center;
     }
     .su-item {
-      position: relative;
       padding-top: 15px;
-      text-align: center;
+      padding-right: 20cm;
     }
   }
   @media only screen and (min-width: 600px) {
-    .Login {
+    .LogIn {
       position: relative;
       text-align: center;
-      padding-top: 15px;
+      padding-top: 50px;
     }
     .filler {
       position: relative;
@@ -114,16 +113,15 @@ export default {
     text-align: center;
     }
     .su-item {
-      position: relative;
       padding-top: 15px;
       text-align: center;
     }
   }
   @media only screen and (min-width: 768px) {
-    .Login {
+    .LogIn {
       position: relative;
       text-align: center;
-      padding-top: 15px;
+      padding-top: 50px;
     }
     .filler {
       position: relative;
@@ -145,7 +143,6 @@ export default {
     text-align: center;
     }
     .su-item {
-      position: relative;
       padding-top: 5px;
       text-align: center;
     }
@@ -179,7 +176,6 @@ export default {
     text-align: center;
     }
     .su-item {
-      position: relative;
       padding-top: 15px;
       text-align: center;
     }
@@ -211,7 +207,6 @@ export default {
     text-align: center;
     }
     .su-item {
-      position: relative;
       padding-top: 15px;
       text-align: center;
     }

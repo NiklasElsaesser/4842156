@@ -36,14 +36,6 @@ export default {
   #app {
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-    background-color: lightgrey;
-  }
-
-  header {
-    display: flex;
-    place-items: left;
-    padding-right: calc(var(--section-gap) / 2);
-    background-color: lightblue;
   }
 
   nav {

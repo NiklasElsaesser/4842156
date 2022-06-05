@@ -3,7 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import VueScrollFixedNavbar from "vue-scroll-fixed-navbar";
 import "./../node_modules/Bulma/CSS/bulma.css";
-import "./validators"
+import './axios'
+
+// setup fake backend
+import { configureFakeBackend } from '/Users/niklaselsasser/Code/Projects/WebAssignmet/weproject/src/_helpers/fake-backend.js';
+configureFakeBackend();
 
 /*
 const app = createApp(App);

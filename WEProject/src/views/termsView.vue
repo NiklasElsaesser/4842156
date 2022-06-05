@@ -1,12 +1,17 @@
 <script>
-
+import Emoji from 'vuejs-emojis'
+export default {
+components: { Emoji },
+};
 </script>
 
 
 
 <template>
   <div class="terms">
-    <h1>Niklas bekommt eine gute Note</h1>
+    <h1>Niklas bekommt eine gute Note ;)</h1>
+    <br>
+    <h3>Da ich in "Vue-Vite" programmiert und zu spät gemerkt habe dass die Multi-User Auth nur mit "Vue-Cli" funktioniert, findet keine registrierung statt.</h3>
   </div>
 </template>
 
