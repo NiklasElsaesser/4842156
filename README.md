@@ -13,9 +13,6 @@ cd WEProject
 npm install
 ```
 
-```sh
-npm install vue-router@4
-```
 ### Compile and Hot-Reload for Development
 
 ```sh
