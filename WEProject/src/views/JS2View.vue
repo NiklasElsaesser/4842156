@@ -1,7 +1,5 @@
 <template>
-<header class="pagegridheader flexboxheader">
-   <img
-      src="/images/logodhbw.svg" style="min-width:200px;max-width:300px;width:30%">
+<header id="top" class="pagegridheader flexboxheader">
    <span>DHBW Stuttgart Web Engineering Portal</span>
 </header>
 <nav class="pagegridnavigation">
@@ -284,9 +282,13 @@ nav,header {width:100%;}
     justify-items: stretch;
     align-items: stretch;
   }
-  .pagegridheader {grid-area: 1 / 1 / span 1 / span 1}
+  .pagegridheader {
+    padding-right: 18px;
+    grid-area: 1 / 1 / span 1 / span 1}
   .pagegridnavigation {grid-area: 2 / 1 / span 1 / span 1}
-  .pagegridsrcol  {grid-area: 3 / 1 / span 1 / span 1}
+  .pagegridsrcol  {
+    padding-right: 20px;
+    grid-area: 3 / 1 / span 1 / span 1}
   .pagegridsfooter  {grid-area: 4 / 1 / span 1 / span 1}
 /* -----------------------------------------------------------------------------
    The following statements are examples of flex-box classes, of course you can

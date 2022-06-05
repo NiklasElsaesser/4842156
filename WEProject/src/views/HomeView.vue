@@ -18,6 +18,17 @@ import TheWelcome from "@/components/TheWelcome.vue";
         </router-link>
       </div>
 
+      <div class="js2">
+        <router-link to="/js2">
+          <a class="button is-white is-large">
+            <span class="icon">
+              <i class="fas fa-user"></i>
+            </span>
+            <span>JS2 Aufgabe</span>
+          </a>
+        </router-link>
+      </div>
+
       <div class="terms">
         <router-link to="/terms">
           <a class="button is-white is-large">
@@ -57,6 +68,9 @@ import TheWelcome from "@/components/TheWelcome.vue";
     
     padding-top: 30px;
     
+  }
+  .js2{
+    padding-top: 15px;
   }
   .terms{
     
