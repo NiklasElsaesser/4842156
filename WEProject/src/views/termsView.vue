@@ -1,8 +1,12 @@
 <script>
-import Emoji from 'vuejs-emojis'
 export default {
-components: { Emoji },
-};
+  name: 'terms',
+  data() {
+    return {
+
+    }
+  }
+}
 </script>
 
 
