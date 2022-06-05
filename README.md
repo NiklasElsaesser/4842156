@@ -1,14 +1,14 @@
 # WebAssignmet
 Assignment for the Course WebEngineering at the DHBW.
 
-WEProject als root Ordner auswählen
+#1.
 
 ```sh
 cd WEProject
 ```
 
 ## Project Setup
-
+#2.
 ```sh
 npm install
 ```
