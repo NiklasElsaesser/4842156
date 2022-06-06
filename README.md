@@ -3,10 +3,10 @@ Assignment for the Course WebEngineering at the DHBW.
 
 Es wurden folgende Aufgaben bearbeitet:
 
-*2. Anzeige von Wetter-Daten
-*8. Rest abfrage
-*10. Individueller Nutzer Login (hat wegen Vue-Vite nicht funktioniert)
-*14. Benutzung von Vue.js
+* 2. Anzeige von Wetter-Daten
+* 8. Rest abfrage
+* 10. Individueller Nutzer Login (hat wegen Vue-Vite nicht funktioniert)
+* 14. Benutzung von Vue.js
 
 #1.
 
