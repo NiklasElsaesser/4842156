@@ -2,6 +2,7 @@
 Assignment for the Course WebEngineering at the DHBW.
 
 Es wurden folgende Aufgaben bearbeitet:
+
 2. Anzeige von Wetter-Daten
 
 8. Rest abfrage
