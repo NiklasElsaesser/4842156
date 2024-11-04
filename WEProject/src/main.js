@@ -6,7 +6,7 @@ import "./../node_modules/Bulma/CSS/bulma.css";
 import './axios'
 
 // setup fake backend
-import { configureFakeBackend } from '/Users/niklaselsasser/Code/Projects/WebAssignmet/weproject/src/_helpers/fake-backend.js';
+import { configureFakeBackend } from './_helpers/fake-backend.js';
 configureFakeBackend();
 
 /*
